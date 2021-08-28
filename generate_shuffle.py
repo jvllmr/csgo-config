@@ -13,7 +13,7 @@ for music_kit in music_kits:
 m4a4 = inv.filter(TagsInternalName.M4A4)
 m4a1 = inv.filter(TagsInternalName.M4A1_S)
 ak47 = inv.filter(TagsInternalName.AK_47)
-ak47 = list(filter(lambda x: not "Safari Mesh" in x.name, inv))
+ak47 = list(filter(lambda x: not "Safari Mesh" in x.name, ak47))
 
 
 
