@@ -1,0 +1,1 @@
+-tickrate 128 -freq 240 -refresh 240 -novid -nojoy -language colormod +exec krey.cfg
